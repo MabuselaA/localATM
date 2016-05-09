@@ -4,10 +4,14 @@ import javax.swing.*;
 public class ATM {
 
 	public static void main(String[] args) {
+		String Home = null;
+		
+		Home = "Welcome to THE Mabusela ATM";
+		System.out.println(Home);
 		try{
 	Machine swipe = new Machine(0);
 		}catch(RuntimeException e){
-		System.out.println("Wrong Input");
+		System.out.println("Incorrect Value");
 		System.out.println("Home page");
 		Machine swipe = new Machine(0);
 		}
